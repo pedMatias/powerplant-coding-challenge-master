@@ -1,5 +1,5 @@
 # powerplant-coding-challenge
-![API](static\api.PNG "Flask rest plus api") 
+![API](static/api.PNG "Flask rest plus api") 
 API to calculate how much power each of a multitude of different powerplants need to produce (a.k.a. the production-plan) when the load is given and taking into account the cost of the underlying energy sources (gas, kerosine) and the Pmin and Pmax of each powerplant.
 
 Since the webservice runs Flask Rest X Api, an interface, called swagger, is automatic generated. To access the endpoint access to http://localhost:8888/. 
