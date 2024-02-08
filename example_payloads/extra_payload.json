@@ -1,0 +1,81 @@
+{
+    "load": 2500,
+    "fuels": {
+        "gas(euro/MWh)": 12.8,
+        "kerosine(euro/MWh)": 49.6,
+        "co2(euro/ton)": 22,
+        "wind(%)": 30
+    },
+    "powerplants": [
+        {
+            "name": "gasfiredbig1",
+            "type": "gasfired",
+            "efficiency": 0.55,
+            "pmin": 200,
+            "pmax": 1000
+        },
+        {
+            "name": "gasfiredbig2",
+            "type": "gasfired",
+            "efficiency": 0.55,
+            "pmin": 200,
+            "pmax": 1000
+        },
+        {
+            "name": "gasfiredmedium1",
+            "type": "gasfired",
+            "efficiency": 0.45,
+            "pmin": 100,
+            "pmax": 500
+        },
+        {
+            "name": "gasfiredmedium2",
+            "type": "gasfired",
+            "efficiency": 0.45,
+            "pmin": 100,
+            "pmax": 500
+        },
+        {
+            "name": "gasfiredsmall1",
+            "type": "gasfired",
+            "efficiency": 0.35,
+            "pmin": 50,
+            "pmax": 250
+        },
+        {
+            "name": "gasfiredsmall2",
+            "type": "gasfired",
+            "efficiency": 0.35,
+            "pmin": 50,
+            "pmax": 250
+        },
+        {
+            "name": "tj1",
+            "type": "turbojet",
+            "efficiency": 0.25,
+            "pmin": 0,
+            "pmax": 30
+        },
+        {
+            "name": "tj2",
+            "type": "turbojet",
+            "efficiency": 0.25,
+            "pmin": 0,
+            "pmax": 30
+        },
+        {
+            "name": "windpark1",
+            "type": "windturbine",
+            "efficiency": 1,
+            "pmin": 0,
+            "pmax": 300
+        },
+        {
+            "name": "windpark2",
+            "type": "windturbine",
+            "efficiency": 1,
+            "pmin": 0,
+            "pmax": 100
+        }
+    ]
+}
