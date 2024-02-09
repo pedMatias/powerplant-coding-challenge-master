@@ -49,7 +49,7 @@ $ docker build -t powerplant-gems .
 
 1. Run Docker image
 ```sh
-$ docker run --name powerplant-gems -d powerplant-gems
+$ docker run --name powerplant-gems -p 8888:8888 -d powerplant-gems
 ```
 
 2. Access the swagger running on http://localhost:8888/.
